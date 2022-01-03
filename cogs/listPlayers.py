@@ -6,7 +6,7 @@ from discord.ext import commands
 class ListPlayersCog(commands.Cog, name="Lists all players"):
     @commands.command()
     async def listPlayers(self, ctx):
-        x = os.listdir("players2/coords")
+        x = os.listdir("players/coords")
         msg = "Players:"
         lst = []
         for file in x:
