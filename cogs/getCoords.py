@@ -3,6 +3,7 @@ from discord.ext import commands
 import os
 from player import *
 
+
 class GetCoordsCog(commands.Cog, name="Gets coord of player"):
 
     # Outputs coords for a player in chat
@@ -15,38 +16,35 @@ class GetCoordsCog(commands.Cog, name="Gets coord of player"):
         # Get player path (returns 'players/player.xlsx')
         path = getPlayer(arg1, 'coords')
         if path != 0:
-            #print(path)
+            # print(path)
             wb = open(path, 'r')
         else:
             # Get similar names
             similar = getSimilar(arg1)
             await ctx.send('```' + arg1 + " not found. Did you mean:\n" + similar[0][0]
-                        + '\n' + similar[1][0] + '\n' + similar[2][0] + '```')
+                           + '\n' + similar[1][0] + '\n' + similar[2][0] + '```')
             return
-        msg = "Coords for " + player + ":"
+        msg = "css\nKnown Planets for [" + player + "]:\n"  # css for orange coloring
 
-        lines = wb.readlines()
+        planets = wb.readlines()
 
         # Sort array
-        lines.sort()
+        planets.sort()
         # Format coord output message
-        for coord in lines:
-            moon = coord.split(' ')
-            if len(moon) < 2:
-              continue
-            moon[1] = int(moon[1])
-            a = moon[0].split(':')
-            a[0] = int(a[0])
-            a[1] = int(a[1])
-            a[2] = int(a[2])
-            if a[1] < 10 and a[2] < 10:
-                msg = msg + "\nCoord: {0}:{1}:{2}\t   Moon: {3}".format(a[0], a[1], a[2], moon[1])
-            elif a[1] < 100 and a[2] < 10:
-                msg = msg + "\nCoord: {0}:{1}:{2}\t  Moon: {3}".format(a[0], a[1], a[2], moon[1])
-            elif a[1] < 100 or a[2] < 10:
-                msg = msg + "\nCoord: {0}:{1}:{2}\t Moon: {3}".format(a[0], a[1], a[2], moon[1])
+        for line in planets:  # coords come in the format of "X:Y:Z MOON" from players < name.txt where moon = 1 if yes
+            coordinates = line.split(' ')
+            if len(coordinates) < 2:
+                continue
+            moon = int(coordinates[1])
+            colony = coordinates[0]
+            if moon > 0:
+                moon = '[Yes]'
             else:
-                msg = msg + "\nCoord: {0}:{1}:{2}\tMoon: {3}".format(a[0], a[1], a[2], moon[1])
+                moon = 'No'
+
+            msg = msg + "\n{:<12}\t   Moon: {}".format(colony, moon)  # buffer of 12 because there is a possible
+            # length of 11
+
 
         await ctx.send('```' + msg + '```')
         wb.close()
