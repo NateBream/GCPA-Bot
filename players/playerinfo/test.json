@@ -2,5 +2,7 @@
   "allies": [],
   "last_alliances": [],
   "timezone" : "",
-  "region_language": ""
+  "region_language": "",
+  "coordinates": [],
+  "times": []
 }
