@@ -11,10 +11,10 @@ class AddPlayerCog(commands.Cog, name="Adds player"):
         player = arg1
 
         if path == 0:
-            wb = open('players2/coords/' + player + '.txt', 'w+')
+            wb = open('players/coords/' + player + '.txt', 'w+')
             wb.close()
         if path2 == 0:
-            wb = open('players2/times/' + player + '.txt', 'w+')
+            wb = open('players/times/' + player + '.txt', 'w+')
             wb.close()
         msg = 'Added player {0}'.format(player)
         await ctx.send('```' + msg + '```')
