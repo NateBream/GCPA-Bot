@@ -4214,3 +4214,935 @@ Coord: 2:40:6	  Moon: 9029```	Uni2 Bot#3968
 2020-05-26 14:59:46	?beerme	Arc#3492
 2020-05-26 14:59:46	```Whats a beer? We drink borboun here...```	Uni2 Bot#3968
 2020-05-26 15:08:37	UwU	BrotherVoid2#6770
+2022-01-03 04:28:55	?setcoord knifecrisis 1:65:7	Mathew#1218
+2022-01-03 04:28:55	```Coord set for knifecrisis
+Coord: 1:65:7
+Moon: 0```	DOOP-Bot#3529
+2022-01-03 04:31:37	Lucky timing lol, I had just rebooted the bot	Arc#3492
+2022-01-03 04:42:27	?beerMe	Arc#3492
+2022-01-03 04:42:27	```Beer? you meant wild turkey 101. Coming right up...```	Tech Bot#3529
+2022-01-03 04:45:24	?beerme	Seedy#3562
+2022-01-03 04:45:24	```You want a Stella?! You pussy. No beer for you!```	Tech Bot#3529
+2022-01-03 04:47:23	?listplayers	Seedy#3562
+2022-01-03 04:47:23	?listplayers	Seedy#3562	Command raised an exception: FileNotFoundError: [Errno 2] No such file or directory: 'players2/coords'
+2022-01-03 04:47:23	```There was an error with "?listplayers"```	Tech Bot#3529
+2022-01-03 04:47:31	well fuck	Arc#3492
+2022-01-03 04:47:39	🤣	Seedy#3562
+2022-01-03 04:47:49	this is what I get for swapping bots	Arc#3492
+2022-01-03 04:48:15	It's probably a cap letter thing	Seedy#3562
+2022-01-03 04:48:27	nah, directory was renamed	Arc#3492
+2022-01-03 04:49:25	?listPlayers	Seedy#3562
+2022-01-03 04:49:25	?listPlayers	Seedy#3562	Command raised an exception: FileNotFoundError: [Errno 2] No such file or directory: 'players2/coords'
+2022-01-03 04:49:25	```There was an error with "?listPlayers"```	Tech Bot#3529
+2022-01-03 04:50:11	?listplayers	Arc#3492
+2022-01-03 04:50:11	```Players:
+
+6of9
+ade
+agoz
+andy6040
+arkutd
+aswang
+ayla
+azazel
+baerchen
+bernd
+bishy
+blackbeard
+bon
+brahman
+brapinyourbeer
+breadbutternoob
+brennert
+bullfrog
+corbandallas
+creative
+croaker
+d3rd3rd3rd4b3n
+damage
+darth-nithilus
+decker
+dejavu
+drummer
+dumptruck
+elastikman
+emp44
+entity
+eustakio
+evilcado
+filian
+flooku
+flyingduck
+flyingghoul
+forsakenr4ider
+fruiii
+fyz
+gary
+ghost
+gorf
+hamidbergamo
+howitzer
+hubble
+izi
+jabba_the_hut
+jabba_the_hutte
+jakd_ejsva
+jimminy
+jinx
+joey2fly
+jonny
+jxzero
+kazooie
+kclyck
+kib
+knifecrisis
+kranky
+leadi
+legaia
+lordadmiral
+maru
+maxtai
+mephisto
+mikex
+minorex
+mitch
+monsolo
+nailoon
+narcan
+neverdown
+noggin
+nolefire99
+nordichaun
+nostaltic
+ohhwee
+oldfarhertime
+onlyr
+pamax11
+pandorum
+phantom
+planetdestroyer
+poohbear
+pops
+red
+rino
+rogue
+severide
+sonofgod
+spirituvertuo
+starman
+stealkin
+str8-rippin
+sundance
+svemirac
+test42
+thedoctor
+tomco
+trex
+trinkfest
+unknownuser
+vash
+vegeta
+vendetta
+void
+warace
+watson
+yggdrazyl
+z_beeblebrox
+zeno
+zidt```	Tech Bot#3529
+2022-01-03 04:50:13	there we go	Arc#3492
+2022-01-03 04:50:43	yeah mb i think that was my version if it has the beerme	BrotherVoid2#6770
+2022-01-03 04:51:02	luckily its all in one repo now lmao. fresh start.	BrotherVoid2#6770
+2022-01-03 04:51:12	I made the change before I pushed it, just missed one case (hopefully)	Arc#3492
+2022-01-03 04:51:24	it really should be a global variable tho........	Arc#3492
+2022-01-03 04:52:04	$directory_x	BrotherVoid2#6770
+2022-01-03 04:52:18	ima take a look at it tomorrow and see what code smells i can remove	BrotherVoid2#6770
+2022-01-03 04:52:32	figure out what actually needs revamping	BrotherVoid2#6770
+2022-01-03 04:52:32	^ a lot	Arc#3492
+2022-01-03 04:52:54	Lets just say it was made with no real plan and very little refactoring	Arc#3492
+2022-01-03 04:53:21	haha from what i remember it was actually pretty neat. just got some easy cleanup to do	BrotherVoid2#6770
+2022-01-03 04:55:05	Well, I haven't taken a look at this version. The one I was using was quite gross	Arc#3492
+2022-01-03 04:55:10	Lot of redundant code as well	Arc#3492
+2022-01-03 04:55:21	<@!210470252453036032> made us some dev channels	Arc#3492
+2022-01-03 04:56:41	awesome.	BrotherVoid2#6770
+2022-01-03 04:57:57	I'll make the repo public at some point, once I remove the bot token	Arc#3492
+2022-01-03 04:58:27	yeah once we get it looking a bit better it'd be a good talking point for interviews. personal investment etc.	BrotherVoid2#6770
+2022-01-03 04:58:31	throw that bot token in a .env file	BrotherVoid2#6770
+2022-01-03 04:58:36	and add it to the gitignore	BrotherVoid2#6770
+2022-01-03 04:59:04	Actually talked about the bot and showed some of the code in my interview for the place I'm currently at	Arc#3492
+2022-01-03 04:59:55	hahahaha nice. I planned on doing that with some of my other repos that are public. My 3916 repos are essentially a full stack development project. I just gotta rename the repos appropriately	BrotherVoid2#6770
+2022-01-03 05:01:42	The token is sorta in the equivalent of a .env file already I think.
+
+I have a config.py file that holds a few variables, and its imported in bot.py	Arc#3492
+2022-01-03 05:03:31	ahhhhh i see now. We should add that as a todo. As well as making a proper readme explaining those. Yeah.... we got a bit of work todo.......	BrotherVoid2#6770
+2022-01-03 05:03:32	hahaha	BrotherVoid2#6770
+2022-01-03 05:04:57	At least I'm not still using excel files lol	Arc#3492
+2022-01-03 05:05:25	?ping	Arc#3492
+2022-01-03 05:05:25	?ping	Arc#3492	Command raised an exception: AttributeError: module 'time' has no attribute 'monotonic_ns'
+2022-01-03 05:05:25	```There was an error with "?ping"```	Tech Bot#3529
+2022-01-03 05:05:27	nice	Arc#3492
+2022-01-03 05:05:49	i cant even bitch. i use txt files way to willy nilly	BrotherVoid2#6770
+2022-01-03 05:06:41	true. But imagine your first thought being 'Why not make an excel spreadsheet for each player and fill everything in that way'	Arc#3492
+2022-01-03 05:07:22	hey man we were all there once. XD	BrotherVoid2#6770
+2022-01-03 05:07:46	ah, to be young and dumb again 😂	Arc#3492
+2022-01-03 05:09:03	true that... Aight im still dying from covid so ima go to sleep. I will take a look at this tomorrow and clean up some smells/remember where the hell we left off... 😄	BrotherVoid2#6770
+2022-01-03 05:09:37	Sounds good to me. Hope ya feel better soon	Arc#3492
+2022-01-03 15:12:23	Damn i just realized thee is only 150 systems	Mathew#1218
+2022-01-03 17:59:36	Anyone able to get me in	Mathew#1218
+2022-01-03 17:59:43	Line	Mathew#1218
+2022-01-03 18:02:24	?setcoord Mitch 1:20:5	Mathew#1218
+2022-01-03 18:02:24	```That coord already exists for Mitch!
+Coord not added!
+Coord: 1:20:5
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:02:55	?setcoord Leadi 1:21:6	Mathew#1218
+2022-01-03 18:02:55	```Coord set for Leadi
+Coord: 1:21:6
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:03:41	?setcoord Forsakenr4ider 1:21:9	Mathew#1218
+2022-01-03 18:03:42	```Coord set for Forsakenr4ider
+Coord: 1:21:9
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:04:03	?setcoord void 1:21:12	Mathew#1218
+2022-01-03 18:04:03	```Coord set for void
+Coord: 1:21:12
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:04:31	?addplayer Daff92	Mathew#1218
+2022-01-03 18:04:31	?addplayer Daff92	Mathew#1218	Command raised an exception: FileNotFoundError: [Errno 2] No such file or directory: 'players2/coords/Daff92.txt'
+2022-01-03 18:04:31	```There was an error with "?addplayer Daff92"```	Tech Bot#3529
+2022-01-03 18:04:48	?addplayer Daff92	Mathew#1218
+2022-01-03 18:04:48	?addplayer Daff92	Mathew#1218	Command raised an exception: FileNotFoundError: [Errno 2] No such file or directory: 'players2/coords/Daff92.txt'
+2022-01-03 18:04:48	```There was an error with "?addplayer Daff92"```	Tech Bot#3529
+2022-01-03 18:05:19	?setcoord Daff92 1:22:5	Mathew#1218
+2022-01-03 18:05:19	```Daff92 not found. Did you mean:
+6of9
+damage
+dejavu```	Tech Bot#3529
+2022-01-03 18:05:47	?setcoord Noggin 1:22:7	Mathew#1218
+2022-01-03 18:05:47	```Coord set for Noggin
+Coord: 1:22:7
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:06:04	?setcoord emp44 1:22:8	Mathew#1218
+2022-01-03 18:06:04	```Coord set for emp44
+Coord: 1:22:8
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:06:35	?addplayer svensven	Mathew#1218
+2022-01-03 18:06:35	?addplayer svensven	Mathew#1218	Command raised an exception: FileNotFoundError: [Errno 2] No such file or directory: 'players2/coords/svensven.txt'
+2022-01-03 18:06:35	```There was an error with "?addplayer svensven"```	Tech Bot#3529
+2022-01-03 18:10:01	?setcoord baerchen 1:23:6	Mathew#1218
+2022-01-03 18:10:01	```Coord set for baerchen
+Coord: 1:23:6
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:10:24	?setcoord baerchen 1:23:7	Mathew#1218
+2022-01-03 18:10:24	```Coord set for baerchen
+Coord: 1:23:7
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:10:45	Look me up there ge-seedy	Seedy#3562
+2022-01-03 18:11:00	?setcoord hamidbergamo 1:23:8	Mathew#1218
+2022-01-03 18:11:00	```Coord set for hamidbergamo
+Coord: 1:23:8
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:11:38	?setcoord hamidbergamo 1:23:9	Mathew#1218
+2022-01-03 18:11:38	```Coord set for hamidbergamo
+Coord: 1:23:9
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:11:57	?set coord 1:23:11	Mathew#1218
+2022-01-03 18:11:57	?set coord 1:23:11	Mathew#1218	Command "set" is not found
+2022-01-03 18:11:58	```Command "?set coord 1:23:11" not found.
+Try ?help for the commands```	Tech Bot#3529
+2022-01-03 18:12:17	?setcoord pops 1:23:11	Mathew#1218
+2022-01-03 18:12:17	```Coord set for pops
+Coord: 1:23:11
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:13:04	?setcoord svemirac 1:24:4	Mathew#1218
+2022-01-03 18:13:04	```Coord set for svemirac
+Coord: 1:24:4
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:13:28	?setcoord flooku 1:24:6	Mathew#1218
+2022-01-03 18:13:28	```Coord set for flooku
+Coord: 1:24:6
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:13:57	?setcoord Mitch 1:24:7	Mathew#1218
+2022-01-03 18:13:58	```Coord set for Mitch
+Coord: 1:24:7
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:14:12	?setcoord jinx 1:24:8	Mathew#1218
+2022-01-03 18:14:13	```Coord set for jinx
+Coord: 1:24:8
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:14:31	?setcoord Mitch 1:24:9	Mathew#1218
+2022-01-03 18:14:31	```Coord set for Mitch
+Coord: 1:24:9
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:15:10	?setcoord flooku 1:24:10	Mathew#1218
+2022-01-03 18:15:10	```Coord set for flooku
+Coord: 1:24:10
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:15:28	?setcoord jinx 1:24:11	Mathew#1218
+2022-01-03 18:15:28	```Coord set for jinx
+Coord: 1:24:11
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:16:09	?setcoord mephisto 1:25:6	Mathew#1218
+2022-01-03 18:16:09	```Coord set for mephisto
+Coord: 1:25:6
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:17:22	?setcoord jinx 1:25:8	Mathew#1218
+2022-01-03 18:17:23	```Coord set for jinx
+Coord: 1:25:8
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:17:45	?setcoord stealkin 1:25:12	Mathew#1218
+2022-01-03 18:17:45	```Coord set for stealkin
+Coord: 1:25:12
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:18:18	?setcoord vendetta 1:26:4	Mathew#1218
+2022-01-03 18:18:18	```Coord set for vendetta
+Coord: 1:26:4
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:18:37	?setcoord flooku 1:26:6	Mathew#1218
+2022-01-03 18:18:37	```Coord set for flooku
+Coord: 1:26:6
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:19:03	?setcoord starman 1:26:7	Mathew#1218
+2022-01-03 18:19:03	```Coord set for starman
+Coord: 1:26:7
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:19:19	?setcoord drummer 1:26:8	Mathew#1218
+2022-01-03 18:19:19	```Coord set for drummer
+Coord: 1:26:8
+Moon: 0```	Tech Bot#3529
+2022-01-03 18:19:41	?setcoord howitzer 1:26:9	Mathew#1218
+2022-01-03 18:19:41	```Coord set for howitzer
+Coord: 1:26:9
+Moon: 0```	Tech Bot#3529
+2022-01-03 20:12:40	?getcoords knifecrisis	Mathew#1218
+2022-01-03 20:12:40	```Coords for knifecrisis:
+Coord: 1:65:7	  Moon: 0```	Tech Bot#3529
+2022-01-03 20:17:00	?setcoord fyz 1:27:6	Mathew#1218
+2022-01-03 20:17:00	```Coord set for fyz
+Coord: 1:27:6
+Moon: 0```	Tech Bot#3529
+2022-01-03 20:17:07	?setcoord fyz 1:27:7	Mathew#1218
+2022-01-03 20:17:07	```Coord set for fyz
+Coord: 1:27:7
+Moon: 0```	Tech Bot#3529
+2022-01-03 20:17:13	?setcoord fyz 1:27:8	Mathew#1218
+2022-01-03 20:17:13	```Coord set for fyz
+Coord: 1:27:8
+Moon: 0```	Tech Bot#3529
+2022-01-03 20:17:44	?setcoord howitzer 1:27:9	Mathew#1218
+2022-01-03 20:17:44	```Coord set for howitzer
+Coord: 1:27:9
+Moon: 0```	Tech Bot#3529
+2022-01-03 20:19:33	?setcoord howitzer 1:27:10	Mathew#1218
+2022-01-03 20:19:33	```Coord set for howitzer
+Coord: 1:27:10
+Moon: 0```	Tech Bot#3529
+2022-01-03 20:20:43	?setcoord severide 1:27:11	Mathew#1218
+2022-01-03 20:20:44	```Coord set for severide
+Coord: 1:27:11
+Moon: 0```	Tech Bot#3529
+2022-01-03 20:22:09	?setcoord jakd_ejsva 1:28:2	Mathew#1218
+2022-01-03 20:22:09	```Coord set for jakd_ejsva
+Coord: 1:28:2
+Moon: 0```	Tech Bot#3529
+2022-01-03 20:22:44	?setcoord jakd_ejsva 1:28:6	Mathew#1218
+2022-01-03 20:22:44	```Coord set for jakd_ejsva
+Coord: 1:28:6
+Moon: 0```	Tech Bot#3529
+2022-01-03 20:23:37	?setcoord yggdrazyl 1:28:8	Mathew#1218
+2022-01-03 20:23:37	```That coord already exists for yggdrazyl!
+Coord not added!
+Coord: 1:28:8
+Moon: 0```	Tech Bot#3529
+2022-01-03 20:23:55	?setcoord yggdrazyl 1:28:9	Mathew#1218
+2022-01-03 20:23:55	```That coord already exists for yggdrazyl!
+Coord not added!
+Coord: 1:28:9
+Moon: 0```	Tech Bot#3529
+2022-01-03 20:24:23	?setcoord jakd_ejsva 1:29:4	Mathew#1218
+2022-01-03 20:24:24	```Coord set for jakd_ejsva
+Coord: 1:29:4
+Moon: 0```	Tech Bot#3529
+2022-01-03 20:25:02	?setcoord kranky 1:29:7	Mathew#1218
+2022-01-03 20:25:02	```That coord already exists for kranky!
+Coord not added!
+Coord: 1:29:7
+Moon: 0```	Tech Bot#3529
+2022-01-03 20:25:19	?setcoord kranky 1:29:9	Mathew#1218
+2022-01-03 20:25:19	```That coord already exists for kranky!
+Coord not added!
+Coord: 1:29:9
+Moon: 0```	Tech Bot#3529
+2022-01-03 20:27:08	?setcoord reddeviel91 1:30:6	Mathew#1218
+2022-01-03 20:27:08	```reddeviel91 not found. Did you mean:
+red
+evilcado
+creative```	Tech Bot#3529
+2022-01-03 20:27:39	?addplayer RedDeviel91	Mathew#1218
+2022-01-03 20:27:39	?addplayer RedDeviel91	Mathew#1218	Command raised an exception: FileNotFoundError: [Errno 2] No such file or directory: 'players2/coords/RedDeviel91.txt'
+2022-01-03 20:27:39	```There was an error with "?addplayer RedDeviel91"```	Tech Bot#3529
+2022-01-03 20:28:28	?setcoord dejavu 1:31:8	Mathew#1218
+2022-01-03 20:28:28	```Coord set for dejavu
+Coord: 1:31:8
+Moon: 0```	Tech Bot#3529
+2022-01-03 20:30:05	?setcoord Darth-Nithilus 1:31:9	Mathew#1218
+2022-01-03 20:30:05	```Coord set for Darth-Nithilus
+Coord: 1:31:9
+Moon: 0```	Tech Bot#3529
+2022-01-03 20:30:54	?setcoord bushy 1:31:11	Mathew#1218
+2022-01-03 20:30:54	```bushy not found. Did you mean:
+bishy
+vash
+brahman```	Tech Bot#3529
+2022-01-03 20:31:18	?setcoord bishy 1:31:11	Mathew#1218
+2022-01-03 20:31:18	```Coord set for bishy
+Coord: 1:31:11
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:08:50	?setcoord KnifeCrisis 1:45:7	Mathew#1218
+2022-01-03 23:08:50	```Coord set for KnifeCrisis
+Coord: 1:45:7
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:12:18	?setcoord knifecrisis 1:57:7	Mathew#1218
+2022-01-03 23:12:18	```Coord set for knifecrisis
+Coord: 1:57:7
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:14:50	?getCoords ham	Arc#3492
+2022-01-03 23:14:50	```ham not found. Did you mean:
+phantom
+damage
+pamax11```	Tech Bot#3529
+2022-01-03 23:15:15	?getCoords hamidbergamo	Arc#3492
+2022-01-03 23:15:15	```Coords for hamidbergamo:
+Coord: 1:23:8	  Moon: 0
+Coord: 1:23:9	  Moon: 0```	Tech Bot#3529
+2022-01-03 23:29:32	?getcoords seedy	BrotherVoid2#6770
+2022-01-03 23:29:32	```seedy not found. Did you mean:
+severide
+red
+neverdown```	Tech Bot#3529
+2022-01-03 23:29:37	?getcoords red	BrotherVoid2#6770
+2022-01-03 23:29:38	```Coords for red:
+Coord: 1:4:11	 Moon: 0
+Coord: 1:4:8	   Moon: 0```	Tech Bot#3529
+2022-01-03 23:30:08	surprised this cluster does what its supposed to.	BrotherVoid2#6770
+2022-01-03 23:44:11	It makes the formatting pretty 😂😂😂	Arc#3492
+2022-01-03 23:44:32	?getCoords starman	Arc#3492
+2022-01-03 23:44:33	```Coords for starman:
+Coord: 1:26:7	  Moon: 0
+Coord: 2:15:8	  Moon: 0```	Tech Bot#3529
+2022-01-03 23:45:02	?addMoon starman 1:26:7 3569	Arc#3492
+2022-01-03 23:45:02	?addMoon starman 1:26:7 3569	Arc#3492	Command "addMoon" is not found
+2022-01-03 23:45:02	```Command "?addMoon starman 1:26:7 3569" not found.
+Try ?help for the commands```	Tech Bot#3529
+2022-01-03 23:45:14	?setMoon starman 1:26:7 3569	Arc#3492
+2022-01-03 23:45:14	?setMoon starman 1:26:7 3569	Arc#3492	Command "setMoon" is not found
+2022-01-03 23:45:14	```Command "?setMoon starman 1:26:7 3569" not found.
+Try ?help for the commands```	Tech Bot#3529
+2022-01-03 23:45:48	?setMoon 1:26:7 3569	Arc#3492
+2022-01-03 23:45:48	?setMoon 1:26:7 3569	Arc#3492	Command "setMoon" is not found
+2022-01-03 23:45:48	```Command "?setMoon 1:26:7 3569" not found.
+Try ?help for the commands```	Tech Bot#3529
+2022-01-03 23:46:04	?clear 8	Arc#3492
+2022-01-03 23:46:04	?clear 8	Arc#3492	Command "clear" is not found
+2022-01-03 23:46:04	```Command "?clear 8" not found.
+Try ?help for the commands```	Tech Bot#3529
+2022-01-03 23:46:15	Welp	Arc#3492
+2022-01-03 23:46:23	?setcoord neverdown 1:32:4	Mathew#1218
+2022-01-03 23:46:24	```Coord set for neverdown
+Coord: 1:32:4
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:46:39	?addCoord starman 1:26:7 3569	Arc#3492
+2022-01-03 23:46:39	```Moon Updated.
+Coord: 1:26:7
+Moon: 3569```	Tech Bot#3529
+2022-01-03 23:47:03	Add player is down	Mathew#1218
+2022-01-03 23:47:51	?setcoord svemirac 1:32:8	Mathew#1218
+2022-01-03 23:47:51	```Coord set for svemirac
+Coord: 1:32:8
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:48:24	?setcoord KRANKY 1:32:9	Mathew#1218
+2022-01-03 23:48:24	```That coord already exists for KRANKY!
+Coord not added!
+Coord: 1:32:9
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:49:15	?setcoord trex 1:34:5	Mathew#1218
+2022-01-03 23:49:15	```Coord set for trex
+Coord: 1:34:5
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:49:30	yeah im fixing this one rn. changing it around to look prettier and a bit more basic language.	BrotherVoid2#6770
+2022-01-03 23:49:44	?setcoord trex 1:34:9	Mathew#1218
+2022-01-03 23:49:44	```Coord set for trex
+Coord: 1:34:9
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:50:03	?setcoord trex 1:34:7	Mathew#1218
+2022-01-03 23:50:04	```Coord set for trex
+Coord: 1:34:7
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:50:59	?setcoord jabba_the_hutte 1:34:8	Mathew#1218
+2022-01-03 23:50:59	```Coord set for jabba_the_hutte
+Coord: 1:34:8
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:51:16	?setcoord jabba_the_hutte 1:34:11	Mathew#1218
+2022-01-03 23:51:16	```Coord set for jabba_the_hutte
+Coord: 1:34:11
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:51:55	?setcoord Zeno 1:35:9	Mathew#1218
+2022-01-03 23:51:55	```That coord already exists for Zeno!
+Coord not added!
+Coord: 1:35:9
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:52:32	?setcoord Zeno 1:35:10	Mathew#1218
+2022-01-03 23:52:32	```That coord already exists for Zeno!
+Coord not added!
+Coord: 1:35:10
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:53:05	?setcoord dumptruck 1:35:12	Mathew#1218
+2022-01-03 23:53:06	```Coord set for dumptruck
+Coord: 1:35:12
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:53:40	?setcoord joey2fly 1:36:8	Mathew#1218
+2022-01-03 23:53:40	```Coord set for joey2fly
+Coord: 1:36:8
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:54:16	?setcoord svemirac 1:35:9	Mathew#1218
+2022-01-03 23:54:16	```Coord set for svemirac
+Coord: 1:35:9
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:54:47	?setcoord Evilcado 1:37:5	Mathew#1218
+2022-01-03 23:54:47	```Coord set for Evilcado
+Coord: 1:37:5
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:55:43	?setcoord dumptruck 1:38:8	Mathew#1218
+2022-01-03 23:55:43	```Coord set for dumptruck
+Coord: 1:38:8
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:56:18	?setcoord planetdestroyer 1:38:10	Mathew#1218
+2022-01-03 23:56:18	```Coord set for planetdestroyer
+Coord: 1:38:10
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:57:09	?setcoord red 1:39:8	Mathew#1218
+2022-01-03 23:57:09	```Coord set for red
+Coord: 1:39:8
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:57:22	?setcoord red 1:39:9	Mathew#1218
+2022-01-03 23:57:22	```Coord set for red
+Coord: 1:39:9
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:57:44	?setcoord sundance 1:39:10	Mathew#1218
+2022-01-03 23:57:45	```Coord set for sundance
+Coord: 1:39:10
+Moon: 0```	Tech Bot#3529
+2022-01-03 23:59:41	?setcoord hamidbergamo 1:40:7	Mathew#1218
+2022-01-03 23:59:41	```Coord set for hamidbergamo
+Coord: 1:40:7
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:00:02	?setcoord bon 1:40:8	Mathew#1218
+2022-01-04 00:00:02	```That coord already exists for bon!
+Coord not added!
+Coord: 1:40:8
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:00:38	?setcoord hubble 1:40:10	Mathew#1218
+2022-01-04 00:00:38	```Coord set for hubble
+Coord: 1:40:10
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:02:22	?setcoord d3rd3rd3rd4b3n 1:41:3	Mathew#1218
+2022-01-04 00:02:22	```Coord set for d3rd3rd3rd4b3n
+Coord: 1:41:3
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:02:39	?setcoord d3rd3rd3rd4b3n 1:41:4	Mathew#1218
+2022-01-04 00:02:39	```Coord set for d3rd3rd3rd4b3n
+Coord: 1:41:4
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:03:30	?setcoord Sundance 1:41:7	Mathew#1218
+2022-01-04 00:03:30	```Coord set for Sundance
+Coord: 1:41:7
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:04:10	?setcoord neverdown 1:41:8	Mathew#1218
+2022-01-04 00:04:10	```Coord set for neverdown
+Coord: 1:41:8
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:04:51	?setcoord kazooie 1:42:7	Mathew#1218
+2022-01-04 00:04:51	```Coord set for kazooie
+Coord: 1:42:7
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:05:15	?setcoord flyingduck 1:42:8	Mathew#1218
+2022-01-04 00:05:15	```That coord already exists for flyingduck!
+Coord not added!
+Coord: 1:42:8
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:05:33	?setcoord Gary 1:42:9	Mathew#1218
+2022-01-04 00:05:33	```Coord set for Gary
+Coord: 1:42:9
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:05:54	?setcoord flyingduck 1:42:12	Mathew#1218
+2022-01-04 00:05:54	```Coord set for flyingduck
+Coord: 1:42:12
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:06:33	?setcoord zidt 1:43:8	Mathew#1218
+2022-01-04 00:06:34	```Coord set for zidt
+Coord: 1:43:8
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:06:58	?setcoord vash 1:43:9	Mathew#1218
+2022-01-04 00:06:58	```Coord set for vash
+Coord: 1:43:9
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:07:36	?setcoord filian 1:44:8	Mathew#1218
+2022-01-04 00:07:37	```Coord set for filian
+Coord: 1:44:8
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:08:05	?setcoord Watson 1:45:8	Mathew#1218
+2022-01-04 00:08:06	```That coord already exists for Watson!
+Coord not added!
+Coord: 1:45:8
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:08:29	?setcoord knifecrisis 1:45:7	Mathew#1218
+2022-01-04 00:08:29	```That coord already exists for knifecrisis!
+Coord not added!
+Coord: 1:45:7
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:09:04	?setcoord kclyck 1:46:8	Mathew#1218
+2022-01-04 00:09:04	```Coord set for kclyck
+Coord: 1:46:8
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:10:14	?setcoord thedoctor 1:47:6	Mathew#1218
+2022-01-04 00:10:15	```Coord set for thedoctor
+Coord: 1:47:6
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:10:45	?setcoord legaia 1:47:7	Mathew#1218
+2022-01-04 00:10:45	```Coord set for legaia
+Coord: 1:47:7
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:11:05	?setcoord decker 1:47:10	Mathew#1218
+2022-01-04 00:11:05	```Coord set for decker
+Coord: 1:47:10
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:11:39	?setcoord pamax11 1:48:8	Mathew#1218
+2022-01-04 00:11:39	```Coord set for pamax11
+Coord: 1:48:8
+Moon: 0```	Tech Bot#3529
+2022-01-04 00:12:00	?setcoord add I 1:48:5	Mathew#1218
+2022-01-04 00:12:00	```Bad Coord format. Correct format: <galaxy>:<system>:<slot>```	Tech Bot#3529
+2022-01-04 00:12:22	?setcoord adeo 1:48:5	Mathew#1218
+2022-01-04 00:12:22	```adeo not found. Did you mean:
+ade
+pandorum
+hamidbergamo```	Tech Bot#3529
+2022-01-04 00:12:36	?addplayer adeo	Mathew#1218
+2022-01-04 00:12:36	?addplayer adeo	Mathew#1218	Command raised an exception: FileNotFoundError: [Errno 2] No such file or directory: 'players2/coords/adeo.txt'
+2022-01-04 00:12:36	```There was an error with "?addplayer adeo"```	Tech Bot#3529
+2022-01-04 00:13:19	?setcoord jelahl 1:48:9	Mathew#1218
+2022-01-04 00:13:19	```jelahl not found. Did you mean:
+joey2fly
+evilcado
+stealkin```	Tech Bot#3529
+2022-01-04 00:15:21	Hey so i think i finished up the getcoords update for now. Ima push it unless you have something else going on right now that might screw up versioning?	BrotherVoid2#6770
+2022-01-04 00:15:37	hey Nole	BrotherVoid2#6770
+2022-01-04 00:16:00	What up	Mathew#1218
+2022-01-04 00:16:08	How many more do you have?	BrotherVoid2#6770
+2022-01-04 00:16:42	Should be good	Arc#3492
+2022-01-04 00:16:58	Im just going system by system I have everything from 1-48 done	Mathew#1218
+2022-01-04 00:17:11	take a quick pause break. we are gonna do a quick bot reset. I just updated the getcoords command to look prettier.	BrotherVoid2#6770
+2022-01-04 00:17:19	pushed	BrotherVoid2#6770
+2022-01-04 00:17:48	Alright. Addplayer isnt working tight now either so i only mapped top 100	Mathew#1218
+2022-01-04 00:18:07	ill look into that right now i have the project open	BrotherVoid2#6770
+2022-01-04 00:18:48	aight i fixed that issue. Once we get a reset it should work again.	BrotherVoid2#6770
+2022-01-04 00:22:14	Do you have the digital ocean instance auto restart on a new push to update? Or are you doing it manually? We should make it automatic if you do it manually haha	BrotherVoid2#6770
+2022-01-04 00:22:22	I do it manually	Arc#3492
+2022-01-04 00:22:29	How often should we remap?	PhattestBoy#0181
+2022-01-04 00:23:29	?listplayers	PhattestBoy#0181
+2022-01-04 00:23:29	```Players:
+
+6of9
+ade
+agoz
+andy6040
+arkutd
+aswang
+ayla
+azazel
+baerchen
+bernd
+bishy
+blackbeard
+bon
+brahman
+brapinyourbeer
+breadbutternoob
+brennert
+bullfrog
+corbandallas
+creative
+croaker
+d3rd3rd3rd4b3n
+damage
+darth-nithilus
+decker
+dejavu
+drummer
+dumptruck
+elastikman
+emp44
+entity
+eustakio
+evilcado
+filian
+flooku
+flyingduck
+flyingghoul
+forsakenr4ider
+fruiii
+fyz
+gary
+ghost
+gorf
+hamidbergamo
+howitzer
+hubble
+izi
+jabba_the_hut
+jabba_the_hutte
+jakd_ejsva
+jimminy
+jinx
+joey2fly
+jonny
+jxzero
+kazooie
+kclyck
+kib
+knifecrisis
+kranky
+leadi
+legaia
+lordadmiral
+maru
+maxtai
+mephisto
+mikex
+minorex
+mitch
+monsolo
+nailoon
+narcan
+neverdown
+noggin
+nolefire99
+nordichaun
+nostaltic
+ohhwee
+oldfarhertime
+onlyr
+pamax11
+pandorum
+phantom
+planetdestroyer
+poohbear
+pops
+red
+rino
+rogue
+severide
+sonofgod
+spirituvertuo
+starman
+stealkin
+str8-rippin
+sundance
+svemirac
+test42
+thedoctor
+tomco
+trex
+trinkfest
+unknownuser
+vash
+vegeta
+vendetta
+void
+warace
+watson
+yggdrazyl
+z_beeblebrox
+zeno
+zidt```	Tech Bot#3529
+2022-01-04 00:24:21	?getcoords severide	PhattestBoy#0181
+2022-01-04 00:24:21	```Coords for severide:
+Coord: 1:27:11	 Moon: 0```	Tech Bot#3529
+2022-01-04 00:24:26	Good question	Seedy#3562
+2022-01-04 00:24:50	With 4 or 5 of us, shouldn't take too long	Seedy#3562
+2022-01-04 00:26:17	300 systems to check in total	Arc#3492
+2022-01-04 00:26:41	If we have 5 people, that’s only 60 systems per person	Arc#3492
+2022-01-04 00:26:54	?getcoords red	BrotherVoid2#6770
+2022-01-04 00:26:54	```Coords for red:
+Coord: 1:39:8	  Moon: 0
+Coord: 1:39:9	  Moon: 0
+Coord: 1:4:11	 Moon: 0
+Coord: 1:4:8	   Moon: 0```	Tech Bot#3529
+2022-01-04 00:28:01	whenever you get a chance I fixed the addplayer issue too. so whenever you can reboot nole can go back to adding systems/coords	BrotherVoid2#6770
+2022-01-04 00:34:19	Just pulled and reset	Arc#3492
+2022-01-04 00:34:31	?getcoords red	BrotherVoid2#6770
+2022-01-04 00:34:31	```css
+Known Planets for [red]:
+
+1:39:8      	   Moon: No
+1:39:9      	   Moon: No
+1:4:11      	   Moon: No
+1:4:8       	   Moon: No```	Tech Bot#3529
+2022-01-04 00:34:37	noice	BrotherVoid2#6770
+2022-01-04 00:34:58	<@!792617904414916608> bot was reset. so you can addplayers again. getcoords also got revamped. 😄	BrotherVoid2#6770
+2022-01-04 00:36:20	?	Seedy#3562
+2022-01-04 00:36:55	?getCoords Blackbeard	Arc#3492
+2022-01-04 00:36:56	```css
+Known Planets for [Blackbeard]:
+
+1:103:8     	   Moon: No
+1:129:8     	   Moon: No
+1:49:8      	   Moon: No
+1:6:5       	   Moon: No
+2:26:8      	   Moon: No
+2:26:8      	   Moon: No```	Tech Bot#3529
+2022-01-04 00:37:34	?help	BrotherVoid2#6770
+2022-01-04 00:37:34	```    #########################
+    #    Uni2 Bot v1.0.1    #
+    #########################
+    Changlog:
+    -Made things work I think
+    #########################
+    Upcoming Feautures:
+    -Flight Time Calculator
+    #########################
+    Created By: Arcaenus#3492
+    Created With: Python 3.6.7 and discord.py 1.1.1
+    #########################
+    Commands:
+
+    ?setCoord <player> <coord> <moon>
+    ?addCoord <player> <coord> <moon>
+    Sets coordinates and moon for a player. Moon size is optional
+    -------------------------
+    ?addPlayer <player>
+    Creates a player file
+    -------------------------
+    ?deletePlayer <player>
+    Deletes a players file
+    -------------------------
+    ?listPlayers
+    Lists all players with files
+    -------------------------
+    ?addTime <player> <time>
+    ?setTime <player> <time>
+    Adds a time a player is online. Use 24hr time and game time (EST). Only use hour and minute
+    Ex: ?addTime sandman09 15:00
+    -------------------------
+    ?getCoords <player>
+    Displays all coords/moons for a player
+    -------------------------
+    ?getTime <player>
+    Displays an image showing all online times for a player
+    -------------------------
+    ?deleteCoord <player> <coord>
+    Deletes a players coord
+    -------------------------
+    ?ping
+    Displays the bots ping
+    -------------------------
+    ?help
+    This command! Prints out info about bot and all commands
+    #########################```	Tech Bot#3529
+2022-01-04 00:37:58	Pretty sure half of those don’t work	Arc#3492
+2022-01-04 00:38:15	?addtime jinx eastern	Seedy#3562
+2022-01-04 00:38:15	```Time added
+Player: jinx
+Time: eastern
+Make sure the time is translated to server time (EST)```	Tech Bot#3529
+2022-01-04 00:38:38	i checked most. they shoulddddd world. :shrugs:	BrotherVoid2#6770
+2022-01-04 00:39:06	oh and if there is a moon. it changes it to red to see it better	BrotherVoid2#6770
+2022-01-04 00:39:12	instead of just no	BrotherVoid2#6770
+2022-01-04 00:39:23	<@248981736569044995> you add the actual time, not the timezone	Arc#3492
+2022-01-04 00:39:33	So, any easy way fill up time with eastern time zone? I see from one of his discord posts, he is eastern	Seedy#3562
+2022-01-04 00:39:33	Nice nice	Arc#3492
+2022-01-04 00:39:55	See general channel	Seedy#3562
+2022-01-04 00:39:56	Not that I can think of, but maybe adding a timezone command?	Arc#3492
+2022-01-04 00:40:23	You and bv2 da programmerz	Seedy#3562
+2022-01-04 00:40:36	Feature request channel is created 🙂	BrotherVoid2#6770
+2022-01-04 00:40:47	?getTime jinx	Arc#3492
+2022-01-04 00:40:47	?getTime jinx	Arc#3492	Command raised an exception: ValueError: invalid literal for int() with base 10: 'eastern\n'
+2022-01-04 00:40:47	```There was an error with "?getTime jinx"```	Tech Bot#3529
+2022-01-04 00:40:52	Lol it broke now	Arc#3492
+2022-01-04 00:41:31	Maybe even have a best guess tz based on the times we will accumulate. GMT-x so we can translate to our own tz	Seedy#3562
+2022-01-04 00:41:53	So, any easy way fill up time with eastern time zone? I see from one of his discord posts, he is eastern	Seedy#3562
+2022-01-04 00:41:54	Ah dude I had an idea but then my wife started talking to me about avatar the last airbender and I quickly forgot my idea	PhattestBoy#0181
+2022-01-04 00:42:08	Maybe even have a best guess tz based on the times we will accumulate. GMT-x so we can translate to our own tz	Seedy#3562
+2022-01-04 00:42:20	?getTime jinx	Arc#3492
+2022-01-04 00:42:21		Tech Bot#3529
+2022-01-04 00:42:40	Marijuana will do that as well <@404022363014037505>	Seedy#3562
+2022-01-04 00:42:53	Would you want the timezone to just show in the gettimes requestion? So it shows times as well as their TZ?	BrotherVoid2#6770
+2022-01-04 00:43:03	Haven’t smoked in 8 years. I’m in the navy lol	PhattestBoy#0181
+2022-01-04 00:43:09	Yes 👍	Seedy#3562
+2022-01-04 00:45:42	?beerme	Seedy#3562
+2022-01-04 00:45:42	```Beer? you meant wild turkey 101. Coming right up...```	Tech Bot#3529
+2022-01-04 00:45:48	Yep works	Seedy#3562
+2022-01-04 00:48:28	So we are trying to plot a string. thats the issue lmao	BrotherVoid2#6770
+2022-01-04 00:49:08	YO so i like what you did with this plotting stuff. But has anyone ever used the settime like this before? Or should we just rework it to just house a TZ for people?	BrotherVoid2#6770
+2022-01-04 00:49:39	just as a basic string of "Eastern" or "Greenwich Mean" or whatever timezone that is entered?	BrotherVoid2#6770
+2022-01-04 00:51:32	Or, turn a string into a positive spies per hour to 1.0 for gmt-5 for eastern or gmt-6 for central, etc. Then the graph will show 1.0 for eastern and can also track other manually added times to see if a target is an insomniac	Seedy#3562
+2022-01-04 00:51:41	we had used it in DOOP. The issue with it is that we need a lot of times entered for anything to be accuragte	Arc#3492
+2022-01-04 00:52:02	Yeah thats what I was thinking.... Or assigning weights to inputs....	BrotherVoid2#6770
+2022-01-04 00:52:13	<@!248981736569044995> Yeah there definitely is a way. we are discussing RN	BrotherVoid2#6770
+2022-01-04 00:52:45	😁 I have faith in you programmerz 🤓	Seedy#3562
+2022-01-04 00:53:02	I think its worthwhile to keep. But we can add a separate command for timezone	Arc#3492
+2022-01-04 00:53:04	Wait. so what we could do is setup something like Eastern means we place say 10 data points during eastern time ranges?	BrotherVoid2#6770
+2022-01-04 00:53:32	Would work short term, not long term	Arc#3492
+2022-01-04 00:53:40	How so?	BrotherVoid2#6770
+2022-01-04 00:54:09	Wouldn't those 10 just start as a base point for future times? If eastern timezone, they will bound to plot more eastern times.	BrotherVoid2#6770
+2022-01-04 00:54:29	True, but it can get lost in the noise	Arc#3492
+2022-01-04 00:54:59	What i am trying to say is the noise would all fit within the same timeslots since thats the trend. We are basically just starting the trend with a set number of inputs instead of 1 at a time.	BrotherVoid2#6770
+2022-01-04 00:55:00	There was a highly requested feature from DOOP a while back that might work	Arc#3492
+2022-01-04 00:55:59	They wanted a 'Player Info' command. Storing known allies, what alliances they've been in, timezone, and region/lagnuage	Arc#3492
+2022-01-04 00:56:17	That would be spicy and would help with that....	BrotherVoid2#6770
+2022-01-04 00:58:46	While true, take me for instance. I'm eastern time, but will be doing the majority of my hunting outside what you'd expect for someone in my timezone. We add some 'standard' data points, but they actually skew the real datapoints.
+
+I guess what I'm getting at is that even knowing timezone, it would be difficult to predict actual active times without real data. And once real data and predicted data is added, you won't be able to tell which is which	Arc#3492
+2022-01-04 01:00:05	Another example: someone who is eastern time, but works nightshift. Their active times would be wildly different from a 9-5er in eastern time	Arc#3492
+2022-01-04 01:00:52	Totally right. Im on board with you now, and see where youre coming from.
+
+ I do like the Player Info idea. It could be easy to implement that, it would just take some updating to addplayer (account for new datapoints of allies, alliances, timezone, and region/language as new files) as well as respective add functions for each. 
+
+The real question... Do we continue with this txt file idea or swap to a DB before doing that leg work of more directories of txt files?	BrotherVoid2#6770
+2022-01-04 01:01:53	we could also do a delimiter on a line for each player. so limit it with a comma or something to split instead of different text files.	BrotherVoid2#6770
+2022-01-04 01:02:01	Easiest short-term solution is making new commands.
+
+I'm not super familiar with databases unfortunately. Only had 1 class on it and skated by with a C	Arc#3492
+2022-01-04 01:02:22	Realistically, database is the ideal solution	Arc#3492
+2022-01-04 01:03:03	Hmm... So if we did a basic SQL DB we would have to essentially rework everything into sql queries. Which wouldn't be ideal if you don't remember much. Lets stick with txt files.	BrotherVoid2#6770
+2022-01-04 01:03:38	I remember the basics	Arc#3492
+2022-01-04 01:03:54	Idk why it replied	Arc#3492
+2022-01-04 01:05:37	Well by basics I mean some complex insertions and select statements. I started typing some out but they got pretty heady fast....	BrotherVoid2#6770
+2022-01-04 01:06:39	I say we stick with txt files and just throw a delimiter in this new directory. Where we have player.txt but each line has a delimiter for the player info. 
+
+So it would be playerinfo as the directory. and then each file would have like 6 colons to deliniate the different datapoints maybe.	BrotherVoid2#6770
+2022-01-04 01:07:24	Wonder if XML or json would be easier	Arc#3492
+2022-01-04 01:07:30	JSON would be optimal.	BrotherVoid2#6770
+2022-01-04 01:07:36	each as attribute	BrotherVoid2#6770
+2022-01-04 01:07:37	ezpz	BrotherVoid2#6770
+2022-01-04 01:08:02	Not super familiar with json, but I'm sure it wouldn't be too difficult to learn	Arc#3492
+2022-01-04 01:08:04	wait. yeah. a json of each player would be optimal period. we could remove all directories and swap everyone to a json	BrotherVoid2#6770
+2022-01-04 01:08:32	its literally just an object file. {} is the object, everything within is a key value pair of "x":"y"	BrotherVoid2#6770
+2022-01-04 01:08:49	sounds easy enough	Arc#3492
+2022-01-04 01:09:43	The way you access them is just by treating it like a python dictionary. so list.get('player_name') would return a dictionary of all attributes.	BrotherVoid2#6770
+2022-01-04 01:11:32	How would you wanna divy this work up? I can probs get the directory structure setup and add player info functions done.	BrotherVoid2#6770
+2022-01-04 01:14:21	Not sure, I won't be able to work on anything tonight.
+
+What else is left to do?
+- Convert existing data to json
+- Change getter/setter commands to use json	Arc#3492
+2022-01-04 01:17:03	So I was thinking we just do this as an additional directory and leave everything else the same. I will basically (1)  update addPlayer to create a respective json file in the newly created playerinfo directory (like it does for the other 2). (2) create the playerinfo directory and fill it with all created players so far with blank information. (3) create the addplayerinfo function to add associated information about a player.	BrotherVoid2#6770
+2022-01-04 01:17:18	What is left, is essentially the getplayerinfo function	BrotherVoid2#6770
+2022-01-04 01:18:35	Alright, then I'll add the getplayerinfo function and try to optimize	Arc#3492
+2022-01-04 01:21:57	This is the core structure of each player.json file. Each of these attributes are callable and will return either a list or string based on attribute called.	BrotherVoid2#6770
+2022-01-04 01:24:10	Aight to make sure we dont get conflicting files I need an up to date list of player files from ya if you can send it over here please. And we need to make sure no one adds anymore until I get the structure setup (will take me an hour tops probably	BrotherVoid2#6770
+2022-01-04 01:24:54	I can push the players folder to github and take the bot offline	Arc#3492
+2022-01-04 01:25:03	Hmm.. Actually gimme a minute.	BrotherVoid2#6770
+2022-01-04 01:25:19	Im getting ahead of myself. I need to make a script to make a couple hundred json files from a template.... haha	BrotherVoid2#6770
+2022-01-04 01:25:52	Eh yeah. send it	BrotherVoid2#6770
+2022-01-04 01:25:55	I will just do it manually	BrotherVoid2#6770
