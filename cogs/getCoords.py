@@ -35,12 +35,8 @@ class GetCoordsCog(commands.Cog, name="Gets coord of player"):
             coordinates = line.split(' ')
             if len(coordinates) < 2:
                 continue
-            moon = int(coordinates[1])
+            moon = coordinates[1]
             colony = coordinates[0]
-            if moon > 0:
-                moon = '[Yes]'
-            else:
-                moon = 'No'
 
             msg = msg + "\n{:<12}\t   Moon: {}".format(colony, moon)  # buffer of 12 because there is a possible
             # length of 11
