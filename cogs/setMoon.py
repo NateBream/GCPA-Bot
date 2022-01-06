@@ -1,5 +1,4 @@
 import shutil
-
 import openpyxl
 from discord.ext import commands
 from player import *
@@ -7,7 +6,7 @@ from player import *
 class setMoonCog(commands.Cog, name="set moon"):
     @commands.command()
     async def setMoon(self, ctx, arg1, arg2):
-        #log(ctx)
+
         player = arg1
         coordinates = str(arg2)
         path = getPlayer(arg1, 'coords')
@@ -25,8 +24,13 @@ class setMoonCog(commands.Cog, name="set moon"):
         for line in lines:
             index_line = lines.index(line)  # need for replacing in txt file soon
             line = line.split(' ')  # split for coordinates and moon
-            if str(line[0]) == arg2:
+            if str(line[0]) == arg2 and index_line == len(lines)-1:
                 modified_line = '{} yes'.format(line[0])  # new line to be saved. coordinate + a 'yes'
+                lines[index_line] = modified_line  # set that line
+                msg = 'Moon added for {0} at location: {1}.'.format(player, coordinates)
+                break
+            if str(line[0]) == arg2 and index_line != len(lines) - 1:
+                modified_line = '{} yes\n'.format(line[0])  # new line to be saved. coordinate + a 'yes'
                 lines[index_line] = modified_line  # set that line
                 msg = 'Moon added for {0} at location: {1}.'.format(player, coordinates)
                 break
@@ -47,7 +51,7 @@ class setMoonCog(commands.Cog, name="set moon"):
     @setMoon.error
     async def setMoon_error(ctx, error):
         if isinstance(error, commands.MissingRequiredArgument):
-            await ctx.send('```Missing argument(s), correct usage:\n?setMoon <player> <coordinate> <moonsize>```')
+            await ctx.send('```Missing argument(s), correct usage:\n?setMoon <player> <coordinate>```')
 
 
 def setup(bot):
