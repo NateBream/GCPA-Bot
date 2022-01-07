@@ -5,7 +5,7 @@ import os
 class RestartCog(commands.Cog, name="Restart"):
     @commands.command()
     @commands.has_any_role("Admin", "Dev")
-    async def restart(self):
+    async def restart(self, ctx):
         os.system("./restartBot.sh")
         return
 
