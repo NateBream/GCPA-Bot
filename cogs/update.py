@@ -6,7 +6,7 @@ class UpdateCog(commands.Cog, name="Update"):
     @commands.command()
     @commands.has_any_role("Admin", "Dev")
     async def update(self):
-        os.system("./updateBot.sh")
+        os.system("../updateBot.sh")
         return
 
 def setup(bot):
