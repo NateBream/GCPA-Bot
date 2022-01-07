@@ -20,7 +20,7 @@ class DeletePlayerCog(commands.Cog, name="Deletes player"):
 
         if path2 != 0:
             try:
-                os.remove(path)
+                os.remove(path2)
                 msg = "Player deleted"
             except:
                 flag2 = 1
@@ -30,7 +30,7 @@ class DeletePlayerCog(commands.Cog, name="Deletes player"):
                         + '\n' + similar[1][0] + '\n' + similar[2][0] + '```')
             return
         if flag == 1 or flag2 == 1:
-                msg = "Unknown error occured. Flag: " + flag + "\nFlag2: " + flag2
+                msg = "Unknown error occured. Flag: " + str(flag) + "\nFlag2: " + str(flag2)
                 #print(path)
                 #print(path2)
         await ctx.send('```' + msg + '```')
