@@ -7,7 +7,7 @@ from os.path import isfile, join
 import discord
 from discord.ext import commands
 from config import *
-from token import *
+from botToken import *
 
 bot = commands.Bot(command_prefix=BOT_PREFIX, case_insensitive=True, help_command=None,
                    activity=discord.Activity(name='?help'))
