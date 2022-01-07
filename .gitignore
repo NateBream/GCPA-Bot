@@ -1,2 +1,5 @@
 __pycache__/
 .DS_Store
+players/
+token.py
+bot.log
