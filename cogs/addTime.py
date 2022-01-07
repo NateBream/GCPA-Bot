@@ -1,6 +1,5 @@
 import shutil
 from player import *
-import openpyxl
 from discord.ext import commands
 
 

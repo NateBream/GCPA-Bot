@@ -1,6 +1,5 @@
 import shutil
 from os import listdir
-import openpyxl
 from discord.ext import commands
 from player import *
 

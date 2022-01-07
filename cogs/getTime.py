@@ -3,7 +3,6 @@ from discord.ext import commands
 import datetime
 import random
 import matplotlib.pyplot as plt
-import openpyxl
 import os
 from player import *
 
