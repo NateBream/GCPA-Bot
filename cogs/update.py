@@ -5,7 +5,7 @@ import os
 class UpdateCog(commands.Cog, name="Update"):
     @commands.command()
     @commands.has_any_role("Admin", "Dev")
-    async def update(self):
+    async def update(self, ctx):
         os.system("/root/updateBot.sh")
         return
 
