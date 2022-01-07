@@ -4,7 +4,7 @@ import os
 
 class ShutdownCog(commands.Cog, name="Shutdown"):
     @commands.command()
-    @commands.has_any_role("Admin")
+    @commands.has_any_role("Admin", "Dev")
     async def shutdown(self):
         os.system("./shutdownBot.sh")
         return
