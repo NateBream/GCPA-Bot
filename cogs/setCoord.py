@@ -73,6 +73,10 @@ class SetCoordCog(commands.Cog, name="Adds Coords"):
         
         wb.write(str(coord) + ' ' + str(moon) + '\n')
 
+        master_file = open('players/master_list_coords.txt', 'a+')
+        writing = str(coord) + ' ' + str(moon) + ' ' + player + '\n'
+        master_file.write(writing)
+
         msg = 'Coord set for {0}\nCoord: {1}\nMoon: {2}'.format(player, coord, moon)
         await ctx.send('```' + msg + '```')
         f.close()

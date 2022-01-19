@@ -145,6 +145,9 @@ class addCoordCog(commands.Cog, name="Adds Coords"):
                     flag = 1
             if flag == 1:
                 wb.write(str(pair[0]) + ' ' + str(pair[1]) + '\n')
+                master_file = open('players/master_list_coords.txt', 'a+')
+                writing = str(pair[0]) + ' ' + str(pair[1]) + ' ' + player + '\n'
+                master_file.write(writing)
                 msg = 'Coord set.\nCoord: {0}\nMoon: {1}'.format(str(pair[0]), str(pair[1]))
                 await ctx.send('```' + msg + '```')
                     
