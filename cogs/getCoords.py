@@ -29,6 +29,8 @@ class GetCoordsCog(commands.Cog, name="Gets coord of player"):
 
         # Sort array
         planets.sort()
+        planets = sorted(planets, key=lambda x: (x.split(':')[0], x.split(':')[1], x.split(':')[2]))
+
         # Format coord output message
         for line in planets:  # coords come in the format of "X:Y:Z MOON" from players < name.txt where moon = 1 if yes
             coordinates = line.split(' ')
@@ -39,7 +41,6 @@ class GetCoordsCog(commands.Cog, name="Gets coord of player"):
 
             msg = msg + "\n{:<12}\t   Moon: {}".format(colony, moon)  # buffer of 12 because there is a possible
             # length of 11
-
 
         await ctx.send('```' + msg + '```')
         wb.close()
