@@ -26,11 +26,38 @@ class GetCoordsCog(commands.Cog, name="Gets coord of player"):
         msg = "css\nKnown Planets for [" + player + "]:\n"  # css for orange coloring
 
         planets = wb.readlines()
-
         # Sort array
         planets.sort()
-        planets = sorted(planets, key=lambda x: (x.split(':')[0], x.split(':')[1], x.split(':')[2]))
+        result = []
+        middle_planets = []
+        list_tuples = []
 
+        for planet in planets:
+            temp_planet = planet.split('\n')[0]
+            temp_planet = temp_planet.replace(' ', ':')
+            middle_planets.append(temp_planet)
+
+        for planet in middle_planets:
+            planet = planet.split(":")
+            temp_list = [planet[0], planet[1], planet[2], planet[3]]
+            temp_tuple = tuple(temp_list)
+            list_tuples.append(temp_tuple)
+
+        list_tuples.sort(key=lambda x: (float(x[0]), float(x[1]), float(x[2])))
+
+        for element in list_tuples:
+            temp_string = ""
+            for item in element:
+                if item == element[0]:
+                    temp_string = item
+                    continue
+                if item == element[-1]:
+                    temp_string = temp_string + " " + item + "\n"
+                else:
+                    temp_string = temp_string + ":" + item
+            result.append(temp_string)
+
+        planets = result
         # Format coord output message
         for line in planets:  # coords come in the format of "X:Y:Z MOON" from players < name.txt where moon = 1 if yes
             coordinates = line.split(' ')
