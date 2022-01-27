@@ -1,6 +1,6 @@
 # Ogame Discord Bot Mapping Agent
 
--- Arc and BrotherVoid2's Manually universe mapping bot --
+--- Arc and BrotherVoid2's Manually universe mapping bot ---
 
 This bot allows for the manual mapping of players colonies and moons as well as keeping track of user specific information. 
 
